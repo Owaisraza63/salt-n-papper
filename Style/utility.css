@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --red: #ed1c23;
+    --black: #000000;
+    --green: #28a645;
+    --white: #ffffff;
+    --gray: #0f0f0f;
+}
+
+.bg-red{
+    background-color: var(--red);
+}
+.bg-green{
+    background-color: var(--green);
+}
+.bg-white{
+    background-color: var(--white);
+}
+.bg-black{
+    background-color: var(--black);
+}
+.bg-grey{
+    background-color: var(--gray);
+}
+
+.text-white{
+    color: var(--white);
+}
+.text-green{
+    color: var(--green);
+}
+.text-black{
+    color: var(--black);
+}
+.text-red{
+    color: var(--red);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-none{
+    text-decoration: none;
+}
+
+.border-none{
+    border: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.justify-evenly{
+    justify-content: space-evenly;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.gap-1{
+    gap: 5px;
+}
+.gap-2{
+    gap: 10px;
+}
+.gap-3{
+    gap: 15px;
+}
+.gap-4{
+    gap: 20px;
+}
+.gap-5{
+    gap: 25px;   
+}
+
+
