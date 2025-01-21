@@ -4,9 +4,9 @@ html{
     font-size: 62.5%;
 }
 
-/* body{
-    background-color: var(--black);
-} */
+body{
+    background-color: #000000;
+}
 
 
 
@@ -25,13 +25,20 @@ html{
 }
 
 .nav-btn{
-    width: 140px;
+    width: 145px;
     height: 50px;
     border-radius: 30px;
     color: #ffffff;
     border: 1px solid white;
-
+    cursor: pointer;
+    
 }
+
+.nav-btn>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 
 #Franchise-btn{
     background-color: transparent;
@@ -40,5 +47,26 @@ html{
 .arrow{
     border-radius: 50%;
     padding: 5px 10px;
-    margin-left:5px;
+    margin-left:8px;
+}
+
+/* navbar ended */
+
+
+#slide-img-1{
+    width: 100%;
+}
+
+.w-head{
+    font-size: 4rem;
+}
+
+#snp-tittle{
+    font-size: 5.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.p-1{
+    font-size: 1.6rem;
+    margin: 0 0 40px;
 }
