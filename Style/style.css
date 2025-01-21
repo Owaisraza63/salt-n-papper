@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+html{
+    font-size: 62.5%;
+}
 
+/* body{
+    background-color: var(--black);
+} */
 
 
 
@@ -7,7 +14,31 @@
     width: 165px;
 }
 
-.nav-items{
+.nav-item{
     text-decoration: none;
     color: #ffffff;
+    font-size: 1.8rem;
+}
+
+.navbar{
+    padding: 10px 50px;
+}
+
+.nav-btn{
+    width: 140px;
+    height: 50px;
+    border-radius: 30px;
+    color: #ffffff;
+    border: 1px solid white;
+
+}
+
+#Franchise-btn{
+    background-color: transparent;
+}
+
+.arrow{
+    border-radius: 50%;
+    padding: 5px 10px;
+    margin-left:5px;
 }
