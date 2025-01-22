@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+
+
 html{
     font-size: 62.5%;
 }
 
 body{
     background-color: #000000;
+    margin-bottom: 500px;
 }
 
 
@@ -55,18 +58,56 @@ body{
 
 #slide-img-1{
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .w-head{
     font-size: 4rem;
 }
 
+@font-face {
+    font-family: "futurak";
+    src: url("../accets/futurak.ttf");
+}
+
 #snp-tittle{
     font-size: 5.2rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "futurak";
+    font-weight: 400;
 }
 
 .p-1{
     font-size: 1.6rem;
     margin: 0 0 40px;
+}
+
+.card-img-3{
+    /* background-color: #ffffff; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.c-img-1,.c-img-2,.c-img-3{
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 22px;
+    /* height: 140px; */
+    width: 250px;
+    
+
+}
+
+.btn-c-img{
+    width: 200px;
+    margin: 20px 0 0 30px;
+    /* height: 40px; */
+    padding: 16px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid rgb(110, 109, 109);
+    border-radius: 30px;
+    font-weight: 800;
+    
+
 }

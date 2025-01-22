@@ -14,7 +14,7 @@
     --black: #000000;
     --green: #28a645;
     --white: #ffffff;
-    --gray: #0f0f0f;
+    --gray: #a19f9f;
 }
 
 .bg-red{
@@ -44,6 +44,10 @@
 }
 .text-red{
     color: var(--red);
+}
+
+.text-gray{
+    color: var(--gray);
 }
 
 .text-center{
