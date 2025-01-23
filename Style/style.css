@@ -24,7 +24,7 @@ body{
 }
 
 .navbar{
-    padding: 10px 50px;
+    padding: 10px 120px;
 }
 
 .nav-btn{
@@ -49,8 +49,10 @@ body{
 
 .arrow{
     border-radius: 50%;
-    padding: 5px 10px;
+    padding: 3px 8px;
     margin-left:8px;
+    font-size: 1.5rem;
+    
 }
 
 /* navbar ended */
@@ -58,7 +60,10 @@ body{
 
 #slide-img-1{
     width: 100%;
-    margin-bottom: 50px;
+}
+
+.container{
+    padding: 70px 15px 160px;
 }
 
 .w-head{
@@ -67,10 +72,14 @@ body{
 
 @font-face {
     font-family: "futurak";
-    src: url("../accets/futurak.ttf");
+    src: url("../accets/fonts/futurak.ttf");
+}
+@font-face {
+    font-family: "bulter";
+    src: url("../accets/fonts/Butler/Butler_Medium.otf");
 }
 
-#snp-tittle{
+#snp-tittle,.snp-tittle-2{
     font-size: 5.2rem;
     font-family: "futurak";
     font-weight: 400;
@@ -99,7 +108,7 @@ body{
 }
 
 .btn-c-img{
-    width: 200px;
+    width: 190px;
     margin: 20px 0 0 30px;
     /* height: 40px; */
     padding: 16px;
@@ -111,3 +120,49 @@ body{
     
 
 }
+
+.container-2{
+    padding: 70px;
+    background-color: #0f0f0f;
+}
+
+.snp-2tittle{
+    text-align: center;
+    font-size: 4.8rem;
+    font-family: "bulter";
+
+}
+
+.snp-tittle-2{
+    
+    display: block;
+}
+
+.cont-2-p{
+    font-size: 1.6rem;
+    padding: 0 0 40px 0;
+}
+
+.islamabad{
+    letter-spacing: 1ch;
+    font-size: 1.5rem;
+    
+}
+
+
+
+.i-tittle{
+    font-size: 3.2rem;
+    margin-top: 10px;
+}
+
+.i-address,.i-phone{
+    font-size: 1.6rem;
+    margin: 0 0 10px;
+}
+
+.i-address>i,.i-phone>i{
+    margin-right: 5px;
+}
+
+

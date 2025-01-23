@@ -1,11 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+@font-face {
+    font-family: "futurak";
+    src: url("../accets/fonts/futurak.ttf");
+}
+@font-face {
+    font-family: "bulter";
+    src: url("../accets/fonts/Butler/Butler_Medium.otf");
+}
+
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", serif;
+}
+
+.f-futurak{
+    font-family: "futurak";
+}
+
+.f-bulter{
+    font-family: "bulter";
+}
+
+.f-normal{
+    font-family: normal;
 }
 
 
@@ -57,6 +78,7 @@
 .text-none{
     text-decoration: none;
 }
+
 
 .border-none{
     border: none;
