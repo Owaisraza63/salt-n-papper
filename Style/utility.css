@@ -36,6 +36,7 @@
     --green: #28a645;
     --white: #ffffff;
     --gray: #a19f9f;
+    --transparent: transparent;
 }
 
 .bg-red{
@@ -69,6 +70,14 @@
 
 .text-gray{
     color: var(--gray);
+}
+
+.bg-transparent{
+    background-color: var(--transparent);
+}
+
+.D-550px{
+    width: 550px;
 }
 
 .text-center{
