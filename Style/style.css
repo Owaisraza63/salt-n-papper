@@ -175,7 +175,7 @@ body{
     margin-right: 5px;
 }
 
-.D-btn,.D-btn3{
+.D-btn,.D-btn3,.D-btn4{
     padding: 15px;
     border: 1px solid gray;
     border-radius: 30px;
@@ -246,4 +246,12 @@ body{
 
 .lahore, .sahiwal{
     height: 252px;
+}
+
+.w-box{
+    width: 28%;
+}
+
+.w-box-img{
+    position: relative;
 }
