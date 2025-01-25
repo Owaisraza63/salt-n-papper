@@ -124,6 +124,7 @@ body{
 .container-2{
     padding: 70px;
     background-color: #0f0f0f;
+    width: 100%;
 }
 
 .snp-2tittle{
@@ -168,12 +169,13 @@ body{
 
 .i-address>i,.i-phone>i,
 .f-address>i,.f-phone>i,
-.b-address>i,.b-phone>i{
+.b-address>i,.b-phone>i,
+.phone3>i,.Jphone3>i{
     
     margin-right: 5px;
 }
 
-.D-btn{
+.D-btn,.D-btn3{
     padding: 15px;
     border: 1px solid gray;
     border-radius: 30px;
@@ -185,7 +187,6 @@ body{
     position: absolute;
     top: 1400px;
     right: 50px;
-    
 }
 
 .fai-sec
@@ -218,3 +219,31 @@ body{
     margin-top: 50px;
 }
 
+.container-3{
+    margin: 40px;
+    padding: 40px;
+    background-image: url(../accets/p-background-img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* .p-logo{
+    width: 100%;
+} */
+
+.cont3-img{
+    width: 380px;
+}
+
+.phone3{
+    padding-top: 20px;
+}
+
+.D-btn3{
+    margin-left: 100px;
+}
+
+.lahore, .sahiwal{
+    height: 252px;
+}
