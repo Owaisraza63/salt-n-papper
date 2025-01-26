@@ -189,6 +189,17 @@
     font-size: 1.4rem;
 }
 
+.f-10{
+    font-size: 1rem;
+}
+
+.f-20{
+    font-size: 2rem;
+}
+
+.f-32{
+    font-size: 3.2rem;
+}
 .m-auto{
     margin: 0 auto;
 }
@@ -201,6 +212,22 @@
     padding: 70px;
 }
 
+.weight-0{
+    font-weight: 0;
+}
 
+.radius-5{
+    border-radius: 5px;
+}
 
+.list-none{
+    list-style: none;
+}
 
+.pb-1{
+    padding-bottom: 10px;
+}
+
+.pr-1{
+    padding-right: 10px;
+}

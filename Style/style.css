@@ -249,9 +249,23 @@ body{
 }
 
 .w-box{
-    width: 28%;
+    width: 400px;
+    padding: 15px 0 30px;
 }
 
 .w-box-img{
-    position: relative;
+  
+    padding: 0rem 0rem 15px 170px;
+    cursor: pointer;
+   
 }
+
+.cnt5-img{
+    width: 300px;
+}
+
+.cnt-5-images{
+    padding: 25px 15px 100px;
+    
+}
+
