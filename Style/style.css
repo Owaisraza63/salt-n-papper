@@ -54,6 +54,21 @@ body{
     
 }
 
+.menu-icon{
+    display: none;
+}
+
+@media(max-width:990px){
+    .menu-icon{
+        display: block;
+
+    }
+
+    .nav-items>a,.nav-items>button{
+        display: none;
+    }
+}
+
 /* navbar ended */
 
 
@@ -184,7 +199,7 @@ body{
 
 .s-logo{
     position: absolute;
-    top: 1400px;
+    top: 1420px;
     right: 50px;
 }
 
@@ -270,4 +285,27 @@ body{
 
 .footer-copyright{
     padding: 15px 100px;
+}
+
+input[type = "text"],
+input[type = "email"]{
+    width: 650px;
+    height: 50px;
+}
+
+.inputs-1{
+    margin: 0 80px;
+    padding: 70px 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+}
+
+.submit:hover{
+
+    cursor: pointer;
+    background-color: #f3c743;
+    transition: 0.3s;
+    color: black;
 }

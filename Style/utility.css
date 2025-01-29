@@ -75,6 +75,10 @@
 .bg-grey-2{
     background-color: var(--gray-2);
 }
+
+.bg-yellow{
+    background-color: #ffc108;
+}
 .text-white{
     color: var(--white);
 }
@@ -141,6 +145,9 @@
     flex-wrap: wrap;
 }
 
+.row-reverse{
+    flex-direction: row-reverse;
+}
 .gap-1{
     gap: 5px;
 }
@@ -227,9 +234,25 @@
 .m-0{
     margin: 0;
 }
+.mb-10{
+    margin-bottom: 10px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
 
 .p-70{
     padding: 70px;
+}
+
+.px-70{
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .weight-0{
@@ -264,4 +287,17 @@
 
 .w-100{
     width: 100px;
+}
+
+.display-none{
+    display: none;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.nav-border{
+    border-bottom: 1px solid rgb(39, 39, 39);
+    
 }
