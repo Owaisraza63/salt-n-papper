@@ -309,3 +309,19 @@ input[type = "email"]{
     transition: 0.3s;
     color: black;
 }
+
+.about-img-2{
+    width: 640px;
+    height: 400px;
+}
+
+.pub-con-child{
+    border: 1px solid gray;
+    width: 700px;
+}
+
+.pub-con-child:hover{
+    cursor: pointer;
+    /* height: 430px;
+    width: 660px; */
+}
