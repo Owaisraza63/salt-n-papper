@@ -315,13 +315,21 @@ input[type = "email"]{
     height: 400px;
 }
 
-.pub-con-child{
+.pub-img-box{
     border: 1px solid gray;
     width: 700px;
+    height: 550px;
+    text-align: center;
+    /* padding: 0px 70px; */
 }
 
-.pub-con-child:hover{
+.pub-con-img{
+    width: 550px;
+
+}
+
+.pub-con-img:hover{
     cursor: pointer;
-    /* height: 430px;
-    width: 660px; */
+    width: 600px;
+    transition: 0.7s;
 }
